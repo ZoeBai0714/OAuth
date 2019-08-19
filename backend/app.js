@@ -8,5 +8,5 @@ app.listen(3001, ()=>{
 
 //routes
 app.get('/', (req, res)=>{
-    console.log("You reached me")
+    res.send("Hello world")
 })
