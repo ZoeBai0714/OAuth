@@ -2,7 +2,9 @@ import React from 'react';
 
 const Homepage = () =>{
     return(
-        <h1>OAuth Learning Project</h1>
+        <div>
+           <header>OAuth Learning Project</header> 
+        </div>
     )
 }
 

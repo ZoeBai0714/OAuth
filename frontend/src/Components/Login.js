@@ -2,7 +2,12 @@ import React from 'react';
 
 const Login = () =>{
     return(
-        <h1>Please Login</h1>
+        <div>
+            <main>
+                <header>Login using...</header>
+                <a className = "google-btn" href = "/auth/google">Google+</a>
+            </main>
+        </div>
     )
 }
 
